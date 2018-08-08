@@ -1,0 +1,25 @@
+<!--
+  Generated template for the PhotoPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Capture a Pic</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content >
+  <div>
+      <button ion-button block (click)="takePicture()">Take Picure</button>
+  </div>
+
+  <ion-card *ngIf="myImage">
+    <ion-card-content>
+      <img [src]="myImage">
+    </ion-card-content>
+  </ion-card>
+</ion-content>
