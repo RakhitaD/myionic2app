@@ -4,9 +4,6 @@ import { AboutPage } from './about';
 import { TubeServiceProvider } from '../../providers/tube-service/tube-service';
 
 @NgModule({
-  declarations: [
-    AboutPage,
-  ],
   imports: [
     IonicPageModule.forChild(AboutPage),
   ],

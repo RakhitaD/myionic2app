@@ -3,9 +3,6 @@ import { IonicPageModule } from 'ionic-angular';
 import { VideoPage } from './video';
 
 @NgModule({
-  declarations: [
-    VideoPage,
-  ],
   imports: [
     IonicPageModule.forChild(VideoPage),
   ],

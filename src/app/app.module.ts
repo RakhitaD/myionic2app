@@ -14,6 +14,10 @@ import { SingleVideoPage } from '../pages/single-video/single-video';
 import { FormsModule } from '../../node_modules/@angular/forms';
 import { Camera } from '@ionic-native/camera';
 import { PhotoPage } from '../pages/photo/photo';
+import { AboutPageModule } from '../pages/about/about.module';
+import { PhotoPageModule } from '../pages/photo/photo.module';
+import { SingleVideoPageModule } from '../pages/single-video/single-video.module';
+import { VideoPageModule } from '../pages/video/video.module';
 
 @NgModule({
   declarations: [
@@ -27,6 +31,10 @@ import { PhotoPage } from '../pages/photo/photo';
   imports: [
     BrowserModule,
     FormsModule,
+    AboutPageModule,
+    PhotoPageModule,
+    SingleVideoPageModule,
+    VideoPageModule,
     HttpClientModule,
     IonicModule.forRoot(MyApp)
   ],
